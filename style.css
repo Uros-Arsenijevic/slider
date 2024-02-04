@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+}
+.track-img {
+  width: calc(250px * 3);
+  height: 200px;
+  overflow: hidden;
+}
+.track {
+  display: flex;
+  transition: 0.2s ease-in-out;
+}
+.track img {
+  width: 250px;
+  height: 200px;
+}
